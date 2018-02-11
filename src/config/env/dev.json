@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "\"http://dev-endpoint.com/\"",
+  "envName": "\"Development Environment\"",
+  "myVariable1": false
+}

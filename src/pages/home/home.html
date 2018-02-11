@@ -1,14 +1,29 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Ionic 3 - Environment Variable sample
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
+  This is a sample to use environment variable in Ionic App.
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    Execute "ionic serve" after set "NODE_ENV" to "dev", "prod" or "fixture".
   </p>
+  <p>&nbsp;</p>
+  <ion-list>
+    <ion-item>
+      <h2>Environemment / Nom</h2>
+      <p>{{envVars.environment}} / {{envVars.envName}}</p>
+    </ion-item>
+    <ion-item>
+      <h2>API Endpoint</h2>
+      <p>{{envVars.apiEndpoint}}</p>
+    </ion-item>
+    <ion-item>
+      <h2>Variable 1</h2>
+      <p>{{(envVars.myVariable1) ? "TRUE": "FALSE"}}</p>
+    </ion-item>
+  </ion-list>
 </ion-content>

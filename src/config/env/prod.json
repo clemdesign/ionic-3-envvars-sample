@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "\"http://prod-endpoint.com/\"",
+  "envName": "\"Production Environment\"",
+  "myVariable1": true
+}

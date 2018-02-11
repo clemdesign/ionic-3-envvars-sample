@@ -1,0 +1,5 @@
+{
+  "apiEndpoint": "\"http://fixture-endpoint.com/\"",
+  "envName": "\"Fixture Environment\"",
+  "myVariable1": false
+}
